@@ -282,6 +282,45 @@ li a {
     background-color: rgba(0, 0, 0, 0.625);
   }
 
+  .first-project {
+    width: 250px;
+    height: 350px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/img/logo1.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .second-project {
+    width: 250px;
+    height: 350px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/img/logo1.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .third-project {
+    width: 250px;
+    height: 350px;
+    background: #fff;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(/img/logo1.png);
+    background-size: cover;
+    background-position: left center;
+  }
+
   .about-container {
     display: flex;
     align-items: center;
@@ -305,9 +344,9 @@ li a {
     font-size: 0.75rem;
   }
 
-  .socials {
+  .socials i {
     font-size: 2rem;
     padding: 10px;
-    margin-left: -10px;
+    margin-left: -20px;
   }
 }
