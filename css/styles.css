@@ -133,7 +133,7 @@ li a {
   height: auto;
 }
 
-.project-header {
+#project-header {
   font-size: 4rem;
   display: flex;
   align-items: center;
