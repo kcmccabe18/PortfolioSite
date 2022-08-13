@@ -247,5 +247,62 @@ li a {
   margin-left: 100px;
 }
 
-.social-icons {
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  width: 30%;
+  margin: 25% 35%;
+  padding-top: 30px;
+}
+
+/* MOBILE VIEW*/
+@media (max-width: 768px) {
+  #nav {
+    display: none;
+  }
+  #mobile-nav {
+    display: block;
+  }
+
+  .mobile-nav-bar {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+  }
+
+  ul {
+    background-color: rgba(0, 0, 0, 0.625);
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    box-shadow: 15px 7px 30px 7px rgba(0, 0, 0, 0.2);
+  }
+
+  .about-image {
+    margin-top: 20px;
+    height: 300px;
+    width: 225px;
+    background-image: url(/img/McCabe3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .about-text {
+    margin-left: 20px;
+    width: 100%;
+    font-size: 0.75rem;
+  }
+
+  .socials {
+    font-size: 2rem;
+    padding: 10px;
+    margin-left: -10px;
+  }
 }
