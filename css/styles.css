@@ -8,7 +8,7 @@
 
 :root {
   --blue-text: #6258ec;
-  --dark-blue: #3ba1b1;
+  --med-blue: #3ba1b1;
   --green: #00f55b;
 }
 
@@ -210,7 +210,7 @@ li a {
 
 .content {
   padding: 25px 0;
-  color: var(--dark-blue);
+  color: var(--med-blue);
 }
 
 .button {
