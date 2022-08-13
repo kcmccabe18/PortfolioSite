@@ -1,3 +1,81 @@
-p {
-  color: blue;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-text: #86ddff;
+  --dark-blue: #002b8f;
+  --mid-blue: #3ba0ff;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* NAV BARS*/
+#mobile-nav {
+  display: none;
+}
+
+.nav-bar {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  list-style: none;
+  height: 10vh;
+  background-color: rgba(100, 100, 100, 0.2);
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+#name {
+  color: var(--blue-text);
+  font-size: 30px;
+  font-weight: bold;
+}
+/* HERO SECTION */
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-containter {
+  position: relative;
+  background-image: url(/img/diver.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 0vh;
+  animation: scale 15s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
