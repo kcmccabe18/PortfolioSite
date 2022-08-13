@@ -52,8 +52,8 @@ li a {
   font-size: 30px;
   font-weight: bold;
 }
-/* HERO SECTION */
 
+/* HERO SECTION */
 .container {
   position: relative;
   height: 100vh;
@@ -123,7 +123,6 @@ li a {
 }
 
 /*PROJECTS SECTION*/
-
 .project-container {
   width: 100%;
   height: auto;
@@ -215,4 +214,38 @@ li a {
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   padding: 15px;
   margin-bottom: 50px;
+}
+
+/* ABOUT MET SECTION*/
+.about-container {
+  margin: 10%;
+  width: 80%;
+  height: auto;
+  background-color: #f8f8f8;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.about-image {
+  height: 450px;
+  width: 400px;
+  background-image: url(/img/McCabe3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.about-text {
+  height: auto;
+  width: 40%;
+  font-size: 1.5rem;
+  margin-left: 100px;
+}
+
+.social-icons {
 }
