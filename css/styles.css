@@ -63,7 +63,7 @@ li a {
 
 .image-containter {
   position: relative;
-  background-image: url(/img/diver.jpg);
+  background: url(/img/diver.jpg);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -78,4 +78,141 @@ li a {
   100% {
     transform: scale(1);
   }
+}
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.firstWord {
+  color: var(--blue-text);
+}
+
+.resume-cta {
+  border: 2px solid var(--blue-text);
+  width: 175px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.resume-text {
+  color: #fff;
+}
+
+.resume-cta:hover {
+  background-color: rgba(100, 100, 100, 0.4);
+}
+
+/*PROJECTS SECTION*/
+
+.project-container {
+  width: 100%;
+  height: auto;
+}
+
+.project-header {
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.first-project {
+  width: 350px;
+  height: 350px;
+  background: #fff;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 50px;
+  background-image: url(/img/logo1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.second-project {
+  width: 350px;
+  height: 350px;
+  background: #fff;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 50px;
+  background-image: url(/img/logo1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.third-project {
+  width: 350px;
+  height: 350px;
+  background: #fff;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 50px;
+  background-image: url(/img/logo1.png);
+  background-size: cover;
+  background-position: left center;
+}
+
+.text-container {
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  overflow: hidden;
+}
+
+.text-container:hover {
+  height: 250px;
+}
+
+.name {
+  margin-top: 10px;
+  color: var(--dark-blue);
+  font-size: 2rem;
+}
+
+.content {
+  padding: 25px 0;
+  color: var(--mid-blue);
+}
+
+.button {
+  border: 5px solid var(--blue-text);
+  width: 160px;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin-bottom: 50px;
 }
