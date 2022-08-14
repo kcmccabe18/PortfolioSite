@@ -25,12 +25,18 @@ section::before {
   height: 100%;
   background: #6258ec;
   clip-path: polygon(54% 0, 100% 0, 100% 100%, 84% 100%);
+  animation: fade-in 0.5s ease-in forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
 }
 
 section .content {
   position: relative;
   padding: 100px 50px 100px 150px;
   box-sizing: border-box;
+  animation: left-in 0.5s ease-in forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
 }
 
 section .content h2 {
@@ -66,6 +72,9 @@ section .imgbox {
 
 section .imgbox img {
   max-width: 500px;
+  animation: fade-in 0.5s ease-in forwards;
+  animation-delay: 2s;
+  opacity: 0;
 }
 
 .socials {
@@ -73,6 +82,9 @@ section .imgbox img {
   bottom: 75px;
   left: 150px;
   display: flex;
+  animation: left-in 0.5s ease-in forwards;
+  animation-delay: 1s;
+  opacity: 0;
 }
 
 .socials li {
@@ -96,8 +108,11 @@ section .imgbox img {
   top: 75px;
   left: 150px;
   display: flex;
-  border-left: 5px solid #00f55b;
+  border-left: 5px solid #6258ec;
   padding-left: 20px;
+  animation: left-in 0.5s ease-in forwards;
+  animation-delay: 0s;
+  opacity: 0;
 }
 
 .nav li {
@@ -113,7 +128,29 @@ section .imgbox img {
   font-weight: 700;
 }
 
-.nav li a.active,
+.nav li a.active {
+  color: #fff;
+}
+
 .nav li a:hover {
   color: #00f55b;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes left-in {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
