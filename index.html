@@ -12,12 +12,140 @@
     <title>Zakarie McCabe Portfolio</title>
   </head>
   <body>
-    <header class="nav-bar">
-      <div class="nav-bar">
-        <nav>
-          <h1 class="nav-bar">Hello</h1>
-        </nav>
+    <header>
+      <div class="logo">
+        <img src="/img/logo2.png" alt="" />
       </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home">Home</a></li>
+          <li class="nav__item"><a href="#services">My Services</a></li>
+          <li class="nav__item"><a href="#about">About Me</a></li>
+          <li class="nav__item"><a href="#portfolio">Portfolio</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <!-- INTRO SECTION -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title-intro">
+        Hi, I am <strong>Zakarie McCabe</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle-intro">front end dev</p>
+      <img src="/img/McCabe3.jpg" alt="Picture of Zakarie McCabe smiling" />
+    </section>
+    <!-- END INTRO -->
+
+    <!-- SERVICES SECTION -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title-services">What I do</h2>
+      <div class="services">
+        <!-- Begin Service -->
+        <div class="service">
+          <h3>Front-End Development</h3>
+          <p>Experience with HTML, CSS, JS</p>
+        </div>
+        <!-- END SERVICE -->
+
+        <!-- BEGIN SERVICE -->
+        <div class="service">
+          <h3>Back-End Development</h3>
+          <p>Experience with C#, JAVA</p>
+        </div>
+        <!-- END SERVICE -->
+
+        <!-- BEGIN SERVICE -->
+        <div class="service">
+          <h3>Mobile Applications</h3>
+          <p>Experience with Kotlin, Swift</p>
+        </div>
+        <!-- END SERVICE -->
+      </div>
+      <a href="#" class="btn">My Resume</a>
+    </section>
+    <!-- END OF SERVICES-->
+
+    <!-- ABOUT ME -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title-about">About Me</h2>
+      <p class="section__subtitle section__subtitle-about"></p>
+
+      <div class="about-me__body">
+        <p></p>
+        <p></p>
+      </div>
+
+      <img src="#" alt="" />
+    </section>
+    <!-- END ABOUT ME-->
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="section_title">My Portfolio</h2>
+      <p class="section__subtitle"></p>
+
+      <div class="portfolio">
+        <!-- PORTFOLIO ITEM -->
+        <a href="#" class="portfolio__item"></a>
+        <img src="/img/arches.jpeg" alt="" class="portfolio__img" />
+
+        <!-- PORTFOLIO ITEM -->
+        <a href="#" class="portfolio__item"></a>
+        <img src="/img/badlands1.jpeg" alt="" class="portfolio__img" />
+
+        <!-- PORTFOLIO ITEM -->
+        <a href="#" class="portfolio__item"></a>
+        <img src="/img/canyonlands1.jpeg" alt="" class="portfolio__img" />
+
+        <!-- PORTFOLIO ITEM -->
+        <a href="#" class="portfolio__item"></a>
+        <img src="/img/redrockwall.jpeg" alt="" class="portfolio__img" />
+
+        <!-- PORTFOLIO ITEM -->
+        <a href="#" class="portfolio__item"></a>
+        <img src="/img/sunset2.jpeg" alt="" class="portfolio__img" />
+
+        <!-- PORTFOLIO ITEM -->
+        <a href="#" class="portfolio__item"></a>
+        <img src="/img/twistyrock.jpeg" alt="" class="portfolio__img" />
+      </div>
+    </section>
+
+    <!-- END PORTFOLIO-->
+
+    <!-- FOOTER -->
+    <footer>
+      <a href="mailto:kcmccabe18@gmail.com" class="footer__link"></a>
+      <ul class="social-list">
+        <li>
+            <a href="mailto:kcmccabe18@gmail.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/kcmccabe18"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/kerry-c-mccabe/"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/_zakarie_ryan_/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.com/kerrymccabe52/"
+              ><i class="fa-brands fa-pinterest"></i
+            ></a>
+          </li>
+    </footer>
+    <!-- END FOOTER -->
   </body>
 </html>
