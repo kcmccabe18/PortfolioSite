@@ -274,6 +274,8 @@ nav {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .portfolio__item {
@@ -294,4 +296,48 @@ nav {
 .portfolio__item:focus .portfolio__img {
   transform: scale(1.2);
   opacity: 0.75;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #111;
+  color: var(--cl-secondary);
+  text-align: center;
+  padding: 2.5em 0;
+  font-size: var(--fs-h3);
+}
+
+.footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer__link {
+  font-weight: var(--fw-bold);
+}
+
+.footer__link:hover,
+.social__list-link:hover {
+  opacity: 0.7;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.social__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+
+.social__list-item {
+  margin: 0 0.5em;
+}
+
+.social__list-link {
+  padding: 0.5em;
 }
