@@ -98,6 +98,26 @@ h3 {
   font-size: var(--fs-h3);
 }
 
+svg {
+  height: 33%;
+  width: 33%;
+}
+
+#c_sharp,
+#java,
+#kotlin,
+#swift {
+  margin-top: 0.75em;
+}
+
+@media (max-width: 800px) {
+  .service h3 {
+    font-size: var(--fs-h2);
+  }
+}
+
+/* SECTION STYLING */
+
 .section__title {
   margin-bottom: 0.25em;
 }
