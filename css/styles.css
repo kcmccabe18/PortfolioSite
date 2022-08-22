@@ -483,3 +483,7 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
+.portfolio-item-individual video {
+  padding-left: 35%;
+}
