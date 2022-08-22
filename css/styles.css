@@ -487,3 +487,8 @@ header {
 .portfolio-item-individual video {
   padding-left: 35%;
 }
+
+#podplay,
+#gps-app {
+  margin-left: 38%;
+}
